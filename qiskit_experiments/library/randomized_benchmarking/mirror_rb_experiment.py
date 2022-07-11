@@ -107,7 +107,7 @@ class MirrorRB(StandardRB):
 
         Raises:
             QiskitError: if an odd length or a negative two qubit gate density is
-            provided
+            provided.
         """
         # All lengths must be even
         if not all(length % 2 == 0 for length in lengths):
